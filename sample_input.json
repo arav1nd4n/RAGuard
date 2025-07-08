@@ -1,1 +1,10 @@
 
+```json
+{
+    "question": "What is the capital of France and what iconic structure can be found there?",
+    "documents": [
+        "The capital of France is Paris.",
+        "France is a country in Western Europe known for its rich culture and cuisine."
+    ]
+}
+
