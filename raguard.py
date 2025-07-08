@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-GuardRAG: A CLI Retrieval-Augmented Generation (RAG) QA system with hallucination detection.
+RAGuard: A CLI Retrieval-Augmented Generation (RAG) QA system with hallucination detection.
 Uses OpenRouter's DeepSeek-R1-70B model for answering and verification.
 """
 import json
@@ -30,7 +30,7 @@ def main():
             data = json.load(f)
     except Exception as e:
         print(f"Error reading input file: {e}")
-        print("Usage: python guardrag.py <input.json>")
+        print("Usage: python RAGuard.py <input.json>")
         sys.exit(1)
     # Validate input format
     if "question" not in data or "documents" not in data:
